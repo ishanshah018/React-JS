@@ -3,6 +3,7 @@ import Task1 from './Task1'
 import Map1 from './Map1'
 import Map2 from './Map2'
 import Map3 from './Map3'
+import List from './List'
 
 const MyApp = () => {
 return (
@@ -15,6 +16,8 @@ return (
         <Map2/>
     {/* ----------Task-3----------------------- */}
         <Map3/>
+    {/* ----------Task-4----------------------- */}
+        <List/>
     </>
 )
 }
