@@ -10,6 +10,7 @@ import Onclick from './Events_handling/Onclick'
 import Onchange from './Events_handling/Onchange'
 import Ondoubleclick from './Events_handling/Ondoubleclick'
 import Onsubmit from './Events_handling/Onsubmit'
+import Main from './Routing/Main'
 
 const MyApp = () => {
 return (
@@ -36,6 +37,8 @@ return (
         <Ondoubleclick/>
     {/* ----------Task-11----------------------- */}
         <Onsubmit/>
+    {/* ----------Task-12----------------------- */}
+        <Main/>
     </>
 )
 }
