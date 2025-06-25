@@ -6,6 +6,10 @@ import Map3 from './Map3'
 import List from './List'
 import Filter from './Filter'
 import P1 from './Props/P1'
+import Onclick from './Events_handling/Onclick'
+import Onchange from './Events_handling/Onchange'
+import Ondoubleclick from './Events_handling/Ondoubleclick'
+import Onsubmit from './Events_handling/Onsubmit'
 
 const MyApp = () => {
 return (
@@ -24,6 +28,14 @@ return (
         <Filter/>
     {/* ----------Task-7----------------------- */}
         <P1/>
+    {/* ----------Task-8----------------------- */}
+        <Onclick/>
+    {/* ----------Task-9----------------------- */}
+        <Onchange/>
+    {/* ----------Task-10----------------------- */}
+        <Ondoubleclick/>
+    {/* ----------Task-11----------------------- */}
+        <Onsubmit/>
     </>
 )
 }
