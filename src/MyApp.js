@@ -5,6 +5,7 @@ import Map2 from './Map2'
 import Map3 from './Map3'
 import List from './List'
 import Filter from './Filter'
+import P1 from './Props/P1'
 
 const MyApp = () => {
 return (
@@ -21,6 +22,8 @@ return (
         <List/>
     {/* ----------Task-6----------------------- */}
         <Filter/>
+    {/* ----------Task-7----------------------- */}
+        <P1/>
     </>
 )
 }
