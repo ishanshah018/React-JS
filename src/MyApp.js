@@ -11,6 +11,9 @@ import Onchange from './Events_handling/Onchange'
 import Ondoubleclick from './Events_handling/Ondoubleclick'
 import Onsubmit from './Events_handling/Onsubmit'
 import Main from './Routing/Main'
+import Ex1 from './Miscallaneous_Examples/Ex1'
+import Ex2 from './Miscallaneous_Examples/Ex2'
+import Ex3 from './Miscallaneous_Examples/Ex3'
 
 const MyApp = () => {
 return (
@@ -39,6 +42,15 @@ return (
         <Onsubmit/>
     {/* ----------Task-12----------------------- */}
         <Main/>
+
+    {/* ----------Misc-Ex-1----------------- */}
+        <Ex1/>
+
+    {/* ----------Misc-Ex-2----------------- */}
+        <Ex2/>
+
+    {/* ----------Misc-Ex-3----------------- */}
+        <Ex3/>
     </>
 )
 }
